@@ -7,9 +7,10 @@
     FlyoutIcon="moon.png">
 
     <FlyoutItem Title="Astronomy" Icon="moon.png">
-
+        <ShellContent Title="Moon Phase" Icon="moon.png"
+        ContentTemplate="{DataTemplate local:MoonPhasePage}"/>
     </FlyoutItem>
-    
+
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
             <Image Source="moon.png" />
