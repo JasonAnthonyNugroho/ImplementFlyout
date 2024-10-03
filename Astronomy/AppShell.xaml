@@ -13,7 +13,7 @@
         <ShellContent Title="Sunrise" Icon="sun.png"
         ContentTemplate="{DataTemplate local:SunrisePage}"/>
     </FlyoutItem>
-
+    
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
             <Image Source="moon.png" />
