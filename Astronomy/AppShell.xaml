@@ -19,10 +19,12 @@
             <Image Source="moon.png" />
         </Grid>
     </Shell.FlyoutHeader>
+    
     <FlyoutItem Title="Moon Phase" Icon="moon.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:MoonPhasePage}" />
     </FlyoutItem>
+    
     <FlyoutItem Title="Sunrise" Icon="sun.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:SunrisePage}"/>
