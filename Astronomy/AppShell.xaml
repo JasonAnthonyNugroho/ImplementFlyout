@@ -8,7 +8,7 @@
 
     <TabBar>
         <Tab>
-
+            <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" />
         </Tab>
     </TabBar>
     
