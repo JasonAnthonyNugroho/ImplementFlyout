@@ -10,12 +10,12 @@
         <ShellContent
         ContentTemplate="{DataTemplate local:MoonPhasePage}" />
     </FlyoutItem>
-    <FlyoutItem Title="Sunrise">
+    <FlyoutItem Title="Sunrise" Icon="sun.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:SunrisePage}"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="About">
+    <FlyoutItem Title="About" Icon="question.png">
         <ShellContent
         ContentTemplate="{DataTemplate local:AboutPage}"/>
     </FlyoutItem>
