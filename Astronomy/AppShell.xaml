@@ -6,7 +6,10 @@
     xmlns:local="clr-namespace:Astronomy.Pages"
     FlyoutIcon="moon.png">
 
+    <FlyoutItem Title="Astronomy" Icon="moon.png">
 
+    </FlyoutItem>
+    
     <Shell.FlyoutHeader>
         <Grid HeightRequest="100" BackgroundColor="DarkSlateBlue">
             <Image Source="moon.png" />
