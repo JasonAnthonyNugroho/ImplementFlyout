@@ -10,6 +10,9 @@
         <Tab Title="Moon Phase" Icon="moon.png">
             <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" />
         </Tab>
+        <Tab Title="Sunrise" Icon="sun.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SunrisePage}"/>
+        </Tab>
     </TabBar>
     
     
