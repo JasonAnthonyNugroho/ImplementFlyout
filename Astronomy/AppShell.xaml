@@ -7,7 +7,7 @@
     FlyoutIcon="moon.png">
 
     <TabBar>
-        <Tab>
+        <Tab Title="Moon Phase" Icon="moon.png">
             <ShellContent ContentTemplate="{DataTemplate local:MoonPhasePage}" />
         </Tab>
     </TabBar>
